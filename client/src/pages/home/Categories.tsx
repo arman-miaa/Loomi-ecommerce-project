@@ -3,9 +3,10 @@ import category1 from "../../assets/category-1.jpg"
 import category2 from "../../assets/category-2.jpg"
 import category3 from "../../assets/category-3.jpg"
 import category4 from "../../assets/category-4.jpg"
+import { TCategory } from "../../types/Category"
 
 const Categories = () => {
-    const categories = [
+    const categories:TCategory[] = [
         {name: "Accessories", path: 'accessories', image: category1},
         {name: "Dress Collection", path: 'dress', image: category2},
         {name: "Jewellery", path: 'jewellery', image: category3},
