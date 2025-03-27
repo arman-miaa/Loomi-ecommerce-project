@@ -1,0 +1,4 @@
+*.css linguist-vendored
+*.scss linguist-vendored
+*.tsx linguist-detectable
+*.ts linguist-detectable
