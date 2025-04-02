@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-
-
-@import "tailwindcss";
-
 @theme {
   /* --font-display: "Satoshi", "sans-serif";
   --breakpoint-3xl: 1920px; */
@@ -59,6 +55,7 @@
   margin: auto;
   color: var(--text-light);
   text-align: center;
+  margin-bottom: 36px;
 }
 
 .btn {
